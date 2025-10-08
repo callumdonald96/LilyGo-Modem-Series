@@ -18,9 +18,9 @@
 
 ### Modem differences
 
-| Model    | GPS | Frequency band(**Cat-M**)                         | Frequency band(**Cat-NB**)                     | Frequency band(**GSM**) |
-| -------- | --- | ------------------------------------------------- | ---------------------------------------------- | ----------------------- |
-| SIM7000G | ✅   | B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B26/B28/B39 | B1/B2/B3/B5/B8/B12/B13/B17/B18/B19/B20/B26/B28 | 850/900/1800/1900MHz    |
+| Model    | GPS | SMS          | Frequency band(**Cat-M**)                         | Frequency band(**Cat-NB**)                     | Frequency band(**GSM**) |
+| -------- | --- | ------------ | ------------------------------------------------- | ---------------------------------------------- | ----------------------- |
+| SIM7000G | ✅   | Only GSM(2G) | B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B26/B28/B39 | B1/B2/B3/B5/B8/B12/B13/B17/B18/B19/B20/B26/B28 | 850/900/1800/1900MHz    |
 
 > \[!IMPORTANT]
 > How to check the specific model version of the modem? Sending AT+SIMCOMATI can return the firmware version and hardware version used.

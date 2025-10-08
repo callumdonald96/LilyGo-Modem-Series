@@ -18,9 +18,9 @@
 
 ### Modem differences
 
-| Model    | GPS | Frequency band(**Cat-M**)                                         | Frequency band(**Cat-NB**)                                    | Frequency band(**GSM**) |
-| -------- | --- | ----------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------- |
-| SIM7070G | ✅   | B1/B2/B3/B4/B5/B8/B12/B13/B14/B18/B19/B20/B25/B26/B27/B28/B66/B85 | B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B25/B26/B28/B66/B71/B85 | 850/900/1800/1900MHz    |
+| Model    | GPS | SMS | Frequency band(**Cat-M**)                                         | Frequency band(**Cat-NB**)                                    | Frequency band(**GSM**) |
+| -------- | --- | --- | ----------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------- |
+| SIM7070G | ✅   | ❌   | B1/B2/B3/B4/B5/B8/B12/B13/B14/B18/B19/B20/B25/B26/B27/B28/B66/B85 | B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B25/B26/B28/B66/B71/B85 | 850/900/1800/1900MHz    |
 
 > \[!IMPORTANT]
 > SIM7070G GPS and cellular functions cannot be enabled at the same time, otherwise GPS positioning cannot be performed. Cellular positioning must be disabled before positioning can be performed. The two are mutually exclusive.
