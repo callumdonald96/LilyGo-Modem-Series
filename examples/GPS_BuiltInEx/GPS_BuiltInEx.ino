@@ -175,6 +175,12 @@ void loopGPS(uint8_t gnss_mode)
             Serial.println(info.altitude);
 
             Serial.println("Visible Satellites:");
+
+
+#if defined(TINY_GSM_MODEM_SIM7080)
+            Serial.print(" GNSS Satellites:");
+            Serial.println(info.GSV);
+#else
             Serial.print(" GPS Satellites:");
             Serial.println(info.gps_satellite_num);
             Serial.print(" BEIDOU Satellites:");
@@ -183,6 +189,7 @@ void loopGPS(uint8_t gnss_mode)
             Serial.println(info.glonass_satellite_num);
             Serial.print(" GALILEO Satellites:");
             Serial.println(info.galileo_satellite_num);
+#endif
 
             Serial.println("Date Time:");
             Serial.print("Year:");
